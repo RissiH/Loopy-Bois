@@ -6,7 +6,19 @@ namespace Loopy_Bois
     {
         static void Main(string[] args)
         {
+            string myString = "ooooooo";
+            int count = 0;
             
+            foreach(char myChar in myString)
+            {
+                if (myChar == 'o')
+                {
+                    count++;
+                }
+            }
+
+            Console.WriteLine("There were " + count + " o characters in the string");
+           
         }
     }
 }
